@@ -11,7 +11,7 @@ import '@/lib/env';
 export default function HomePage() {
   const [tab, setTab] = React.useState(0);
   return (
-    <main className='bg-black text-white h-full flex items-center md:items-start flex-col'>
+    <main className='bg-black text-white h-full min-h-screen flex items-center md:items-start flex-col'>
       <div className='flex md:justify-between md:px-48 py-8 md:w-full items-center'>
         <div className='cursor-pointer' onClick={() => window.open("/", "_self")}><img src='amd-header-logo.png' width={90} /></div>
         <div onClick={() => window.open("/", "_self")} className='hidden md:block bg-stone-950 hover:bg-stone-900 cursor-pointer select-none rounded-2xl p-4'>На главную</div>
