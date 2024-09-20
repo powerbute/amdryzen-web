@@ -27,6 +27,8 @@ import { FaRegCreditCard, FaRegMoneyBillAlt } from "react-icons/fa";
 import { AiOutlineLoading } from "react-icons/ai";
 import { FaCircleCheck } from "react-icons/fa6";
 
+export const dynamic = 'force-dynamic'
+
 export default function HomePage() {
   const searchParams = useSearchParams();
   const price = searchParams.get("price")
